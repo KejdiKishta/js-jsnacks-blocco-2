@@ -9,5 +9,3 @@ console.log(input);
 
 //* funzione rimuovi dalla coda
 const newArray = rimuoviDallaCoda(input);
-
-//* funzione stampa array nuovo
