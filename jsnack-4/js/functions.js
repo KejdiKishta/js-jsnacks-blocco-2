@@ -14,6 +14,7 @@ function trovaIndice(list) {
     for (let i = 0; i < list.length; i++) {
         if (userSearch === list[i]) {
             return i;
+            break;
         } 
     }
     return -1

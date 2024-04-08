@@ -34,6 +34,5 @@ function stampaArray (array) {
         }
         console.log(array[i]);
     }
-    //* stampa risultato finale
-    alert(`gli elementi presenti nell'array sono ${result}`)
+    return result;
 }

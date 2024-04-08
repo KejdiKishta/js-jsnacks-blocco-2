@@ -8,4 +8,7 @@ const input = inputElem();
 console.log(input);
 
 //* stampa array
-stampaArray (input)
+const finalResult = stampaArray (input);
+
+//* stampa risultato finale
+alert(`gli elementi presenti nell'array sono ${finalResult}`)
